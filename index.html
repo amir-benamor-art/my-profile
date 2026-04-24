@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Amir Ben Amor — World's Best Entrepreneur</title>
+  <meta name="description" content="Amir is a talented entrepreneur aiming to enhance healthcare management." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Font Awesome 5 Free CDN (icons) -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1 class="hero__title">Hello, I'm <span>Amir</span> <i class="fas fa-hand-peace"></i></h1>
+      <p class="hero__subtitle">
+        First‑year nursing student • Reader • Soft skills & finance enthusiast •
+        <span class="blink">Coding lover 🤓</span>
+      </p>
+      <a class="btn btn--primary" href="#about">
+        Discover my profile <i class="fas fa-arrow-down"></i>
+      </a>
+    </div>
+    <div class="hero__bg" aria-hidden="true"></div>
+  </header>
+
+  <main id="about" class="container">
+    <section class="intro card">
+      <div class="intro__media">
+        <img src="images/amir.jpg" alt="Amir Ben Amor portrait">
+      </div>
+      <div class="intro__text">
+        <h2>About me</h2>
+        <p>
+          I’m <strong>Amir Ben Amor</strong>, a first‑year <strong>nursing student</strong> driven by curiosity,
+          discipline, and a deep love for growth. I’m passionate about <strong>reading</strong>,
+          <strong>soft‑skills development</strong>, <strong>finance</strong>, and I’ve recently fallen in love with
+          <strong>coding 🤓</strong>. When I’m not studying, you’ll find me underwater — <strong>spearfishing</strong>
+          and <strong>diving</strong>, where I feel most alive.
+        </p>
+        <div class="chips">
+          <span class="chip"><i class="fas fa-user-nurse"></i> Nursing</span>
+          <span class="chip"><i class="fas fa-book"></i> Reading</span>
+          <span class="chip"><i class="fas fa-comments"></i> Soft Skills</span>
+          <span class="chip"><i class="fas fa-coins"></i> Finance</span>
+          <span class="chip"><i class="fas fa-fish"></i> Spearfishing</span>
+          <span class="chip"><i class="fas fa-water"></i> Diving</span>
+          <span class="chip"><i class="fas fa-code"></i> Coding</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h3>📚 Personal Growth – Reading & Soft Skills</h3>
+        <p>
+          I read to expand my mind, strengthen emotional intelligence, and communicate with clarity.
+          Soft skills—leadership, empathy, adaptability—are essential in nursing and in life. I practice them intentionally.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>💰 Finance, Projects & Coding</h3>
+        <p>
+          Finance teaches how to build a future on purpose. I learn investing basics and resource strategy.
+          Coding blends logic, creativity, and problem‑solving—every new concept is a new superpower.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>🌊 Spearfishing & Diving – My Element</h3>
+        <p>
+          The ocean is focus and freedom. Diving trains patience and calm; spearfishing sharpens precision.
+          It’s where mindfulness meets adventure.
+        </p>
+      </article>
+    </section>
+
+    <section class="card socials">
+      <h2>Follow me</h2>
+      <ul class="socials__list">
+        <li>
+          <a class="social" href="https://www.facebook.com/amir.benamor.773" target="_blank" rel="noopener">
+            <i class="fab fa-facebook-square"></i>
+            <span>Facebook</span>
+          </a>
+        </li>
+        <li>
+          <a class="social" href="https://www.instagram.com/amir__ben__amor" target="_blank" rel="noopener">
+            <i class="fab fa-instagram"></i>
+            <span>Instagram</span>
+          </a>
+        </li>
+        <li>
+          <a class="social" href="https://wa.me/21693030939" target="_blank" rel="noopener">
+            <i class="fab fa-whatsapp-square"></i>
+            <span>WhatsApp</span>
+          </a>
+        </li>
+        <li>
+          <a class="social" href="mailto:amirbenamor004@gmail.com">
+            <i class="fas fa-envelope"></i>
+            <span>Email</span>
+          </a>
+        </li>
+        <li>
+          <a class="social" href="tel:+21693030939">
+            <i class="fas fa-phone-square"></i>
+            <span>Call</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Amir Ben Amor — Built with ❤️ & curiosity</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
